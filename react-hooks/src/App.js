@@ -1,12 +1,9 @@
 import React from "react";
-import FetchPokeApi from "./components/FetchPokeApi";
-import PokeComponent from "./components/PokeComponent";
-
+import Input from "./components/Input";
 function App() {
   return (
     <>
-      {/* <PokeComponent></PokeComponent> */}
-      <FetchPokeApi />
+      <Input />
     </>
   );
 }
