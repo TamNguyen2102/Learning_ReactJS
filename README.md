@@ -5,10 +5,9 @@ This guide contain all basics and practices with ReactJS to gain basic idea of t
 ## Folder trees
 
 - Fundamentals
-- HTTP
-- Routing
-- Redux
-- Utilities
+- Advanced-topics
+- Hooks
+- Pratical
 
 ## About ReactJS
 

@@ -1,9 +1,33 @@
-import HomeComponent from "./Pagination/HomeComponent";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { ThemeProvider } from "styled-components";
+import Body from "./components/Body";
+import Header from "./components/Header";
+import Info from "./components/Info";
+import PeopleSection from "./components/PeopleSection";
+import GlobalStyles from "./components/styles/Global";
+import { Introduction } from "./components/styles/Introduction.styled";
+
+const theme = {
+  colors: {
+    header: "#f8f9fa",
+    body: "red",
+    text: "#fff",
+    accent: "#0d6efd",
+  },
+  mobile: "768px",
+};
+
 function App() {
   return (
     <div className="App">
-      <HomeComponent />
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <Header />
+        <Info />
+        <Body />
+        <PeopleSection />
+        <Introduction />
+      </ThemeProvider>
     </div>
   );
 }
