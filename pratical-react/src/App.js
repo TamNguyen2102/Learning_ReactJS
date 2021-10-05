@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import Body from "./components/Body";
 import Header from "./components/Header";
 import Info from "./components/Info";
+import IntroductionComponent from "./components/IntroductionComponent";
 import PeopleSection from "./components/PeopleSection";
 import GlobalStyles from "./components/styles/Global";
 import { Introduction } from "./components/styles/Introduction.styled";
@@ -26,7 +27,10 @@ function App() {
         <Info />
         <Body />
         <PeopleSection />
-        <Introduction />
+        <IntroductionComponent
+          navHeight="400"
+          text="Ready to get started? Sign up now!"
+        />
       </ThemeProvider>
     </div>
   );

@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
     body{
         color: black;
         transition: all 300ms ease;
+        overflow-x: hidden;
     }
 
     img{

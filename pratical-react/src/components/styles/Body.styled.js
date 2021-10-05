@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledBody = styled.main`
-  width: 98.9vw;
+  width: 100vw;
   .imageBody {
     width: 50%;
   }
@@ -29,7 +29,7 @@ export const StyledBody = styled.main`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    width: 711.2px;
+    width: 100vw;
     .imageBody {
       width: 100%;
     }
